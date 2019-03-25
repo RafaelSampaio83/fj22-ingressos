@@ -149,5 +149,13 @@
             </plugin>
         </plugins>
     </build>
-
+	<project>
+		<!-- restante omitido.. -->
+	<developers>
+			<developer>
+				<name>Rafael Sampaio</name>
+				<email>rafazim23@gmail.com</email>
+		</developer>
+	</developers>
 </project>
+
