@@ -2,11 +2,9 @@ package br.com.caelum.ingresso.dao;
 
 import java.util.List;
 
-import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import org.springframework.integration.metadata.ListenableMetadataStore;
 import org.springframework.stereotype.Repository;
 
 import br.com.caelum.ingresso.model.Sala;

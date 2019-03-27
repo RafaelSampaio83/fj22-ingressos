@@ -22,9 +22,8 @@ public class SalaController {
 	@Autowired
 	private SalaDao salaDao;
 	@Autowired
-	private SessaoDao sessaoDao;{
+	private SessaoDao sessaoDao;
 		
-	}
 
 	@GetMapping({ "/admin/sala", "/admin/sala/{id}" })
 	public ModelAndView form(@PathVariable("id") Optional<Integer> id, Sala sala) {
