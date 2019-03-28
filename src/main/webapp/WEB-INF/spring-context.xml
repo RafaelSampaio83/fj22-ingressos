@@ -18,7 +18,7 @@
 	<jpa:repositories base-package="br.com.caelum.ingresso" />
 
 	<context:component-scan base-package="br.com.caelum.ingresso" />
-	<mvc:annotation-driven />
+	<mvc:annotation-driven conversion-service="conversionService"></mvc:annotation-driven>
 	<mvc:default-servlet-handler/>
 
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -40,7 +40,7 @@
 		</property>
 	</bean>
 	
-	<!-- gerenciamento da transação pelo spring -->
+		<!-- gerenciamento da transação pelo spring -->
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
 		<property name="entityManagerFactory" ref="entityManagerFactory"/>
 	</bean>  
